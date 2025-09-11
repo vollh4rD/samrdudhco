@@ -1,0 +1,43 @@
+{
+  "experiences": [
+    {
+      "role": "Cyber Security Analyst",
+      "company": "KPMG",
+      "years": "2023 - Present",
+      "bullets": [
+        "Product Development - AI redteaming, Endpoint Security Posture Management Tool ",
+        "Vulnerability Assessment and Pentesting - Webapp, Networks, APIs, AI.",
+        "Config Reviews - Active Directory, Azure AD, AWS, GCP, Access Points.",
+        "Red team - deepfakes, phishing campaigns"
+      ]
+    },
+    {
+      "role": "Co-Founder",
+      "company": "SyncZero",
+      "years": "2022 - 2023",
+      "bullets": [
+        "Design & Development - AI-based report management tool",
+        "Automated BAS systems",
+        "Pre-seed fund raising"
+      ]
+    },
+    {
+      "role": "Product Design & VAPT Analyst",
+      "company": "CyberSmithSECURE",
+      "years": "2021 - 2022",
+      "bullets": [
+        "Developed internal software for MSSP management.",
+        "Worked with clients in the health, urban development & ev sector.",
+        "Handled incident response of a top medical client in the middle east.",
+        "Performed network & web assessments for various Forture 500 & Unicorn clients."
+      ]
+    }
+  ],
+"achievements": [
+      { "name": "Global Finalist Redbull Basement ‘21 ", "url": "#" },
+      { "name": "National Champion - Gokart ( I.C.E & EV engine ) ‘21", "url": "#" },
+      { "name": "Robocon All India Ranking - 14 ‘21", "url": "#" },
+      { "name": "Top 10 - Border Security Force camp ‘19", "url": "#" },
+      { "name": "CTF international Ranking - 14113", "url": "#" }
+    ]
+}

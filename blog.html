@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="terminal-description" content="Use W/T/G/S keyboard shortcuts to navigate">
+    <title>blog - Samrudh</title>
+    <meta name="description" content="Samrudh's blog - thoughts on cybersecurity, robotics, and entrepreneurship">
+    <meta property="og:title" content="blog - Samrudh">
+    <meta property="og:description" content="Samrudh's blog - thoughts on cybersecurity, robotics, and entrepreneurship">
+    <meta property="og:url" content="https://samrudh.dev/blog">
+    <meta property="og:site_name" content="Samrudh">
+    <meta property="og:image" content="https://base-case-images.s3.us-west-1.amazonaws.com/basecasesh.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="blog - Samrudh">
+    <meta name="twitter:description" content="Samrudh's blog - thoughts on cybersecurity, robotics, and entrepreneurship">
+    <meta name="twitter:image" content="https://base-case-images.s3.us-west-1.amazonaws.com/basecasesh.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/Assets/styles/main.css">
+</head>
+<body class="antialiased">
+    <div class="font-mono">
+        <!-- Navigation -->
+        <div data-component="header"></div>
+
+        <!-- Main Content -->
+        <main class="container min-h-screen">
+            <div class="mx-auto">
+                <!-- Blog Header -->
+                <div class="max-w-xl py-5 fade-in">
+                    <h1 class="text-2xl font-bold mb-2 cursor-default">blog</h1>
+                    <p class="text-sm text-gray-400">some learnings from building and breaking things.</p>
+                </div>
+
+                <!-- Blog Posts Grid -->
+                <div class="py-8">
+                    <div class="grid gap-6 sm:grid-cols-2" id="blog-posts">
+                        <!-- Content will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <div data-component="footer"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/Assets/js/core.js"></script>
+    <script src="/Assets/js/components.js"></script>
+    <script src="/Assets/js/blog.js"></script>
+</body>
+</html>
