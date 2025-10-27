@@ -4,19 +4,20 @@
  */
 
 // Global configuration
-const CONFIG = {
-    apiBase: '/Assets',
-    animationDuration: 600,
-    keyboardShortcuts: {
-        'w': { action: 'navigate', target: '/beerwise', description: 'beerwise' },
-        'b': { action: 'navigate', target: '/blog', description: 'blog' },
-        'h': { action: 'navigate', target: '/', description: 'home' },
-        'l': { action: 'external', target: 'https://linkedin.com/in/samrudh-yash', description: 'linkedin' },
-        't': { action: 'external', target: 'https://x.com/0xVollhard', description: 'twitter' },
-        'g': { action: 'external', target: 'https://github.com/vollh4rD', description: 'github' }
-    }
-};
 
+    const CONFIG = {
+       apiBase: 'Assets',
+         animationDuration: 600,
+         keyboardShortcuts: {
+   
+            'w': { action: 'navigate', target: 'beerwise.html', description: 'beerwise' },
+           'b': { action: 'navigate', target: 'blog.html', description: 'blog' },
+           'h': { action: 'navigate', target: 'index.html', description: 'home' },
+             'l': { action: 'external', target: 'https://linkedin.com/in/samrudh-yash', description: 'linkedin' },
+             't': { action: 'external', target: 'https://x.com/0xVollhard', description: 'twitter' },
+             'g': { action: 'external', target: 'https://github.com/vollh4rD', description: 'github' }
+         }
+     };
 // Utility functions
 const Utils = {
     /**

@@ -22,7 +22,7 @@ class ComponentLoader {
 
         for (const component of componentFiles) {
             try {
-                const response = await fetch(`/Assets/components/${component}.html`);
+                const response = await fetch(`Assets/components/${component}.html`);
                 if (response.ok) {
                     const html = await response.text();
                     this.components.set(component, html);
