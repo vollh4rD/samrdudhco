@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
         switch(event.key.toLowerCase()) {
             case 'w':
                 // [w] beerwise - navigate to beerwise
-                window.location.href = '/beerwise';
+                window.location.href = 'beerwise.html';
                 break;            
             case 'b':
                 // [b] blog - navigate to blog
-                window.location.href = '/blog';
+                window.location.href = 'blog.html';
                 break;
 
             case 'd':
